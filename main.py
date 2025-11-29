@@ -9,7 +9,6 @@ def main():
     import sys
     if len(sys.argv)==2:
         path1=sys.argv[1]
-        # path1="books/frankenstein.txt"
         print(f"Analyzing book found at {path1}...")
         book1_string=get_book_text(path1)
         words_counter(book1_string)

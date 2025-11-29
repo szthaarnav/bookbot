@@ -32,9 +32,3 @@ def sorted_dict_list(dict_words:dict):
         character=index["char"]
         num_count=index["num"]
         print(f"{character}: {num_count}")
-
-# def format_report(path_to_file,total_words,total_characters):
-#     print(f"============ BOOKBOT ============\nAnalyzing book found at {path_to_file}...")
-#     print(f"----------- Word Count ----------\nFound {total_words} total words")
-#     print("--------- Character Count -------")
-#     total_characters()
